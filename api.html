@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/21074b5103.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="api.css">
+    </head>
+    <body>
+        <div class="container">
+           <div class="card">
+            <h2><i class="fa fa-map-marker"></i><span id="location"></span></h2>
+            <h6 id="weather"></h6>
+            <h4><span id="temp"></span><sup>o</sup>C</h4>
+            <img src="" id="icon">
+            <button onclick="window.location.reload()" class="refresh">
+            <i class="fa fa-refresh"></i></button>
+           </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+        <script src="api.js"></script>
+</html>
